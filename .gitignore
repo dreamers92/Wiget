@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AcmeWidget/bin/Debug/netcoreapp3.1
+/AcmeWidget/obj
+/Testing/obj
