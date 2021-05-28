@@ -34,7 +34,7 @@ namespace AcmeWidget.Models
 
                 entity.Property(e => e.Activity)
                     .IsRequired()
-                    .HasMaxLength(20)
+                    .HasMaxLength(200)
                     .IsFixedLength(true);
 
                 entity.Property(e => e.Comments)

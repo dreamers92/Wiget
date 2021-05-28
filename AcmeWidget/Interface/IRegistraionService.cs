@@ -10,5 +10,6 @@ namespace AcmeWidget.Interface
     public interface IRegistraionService
     {
         Task<Message<bool>> RegisterContact(Contact contact);
+        Task <Message<Contact>> LoadContacts();
     }
 }

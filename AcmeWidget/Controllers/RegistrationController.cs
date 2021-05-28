@@ -32,6 +32,14 @@ namespace AcmeWidget.Controllers
             return Ok(response);
         }
 
+        [HttpGet]
+        [Route("contacts")]
+        public async Task<IActionResult> ViewContacts()
+        {
+            var response = await _svcRegistration.LoadContacts();
+            return Ok(response);
+        }
+
 
     }
 }

@@ -12,5 +12,7 @@ namespace AcmeWidget.Models
         public string EmailAddress { get; set; }
         public string Activity { get; set; }
         public string Comments { get; set; }
+        public string ModifiedDate { get; set; }
+
     }
 }
